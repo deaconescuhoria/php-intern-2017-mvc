@@ -22,6 +22,9 @@
 
 	<!-- Favicons -->
     <link rel="shortcut icon" href="assets/z/favicon.ico">
+          <style>
+body{background:url(assets/img/white_leather.png) repeat 0 0; }
+</style>
   </head>
 <body>
 <!-- 

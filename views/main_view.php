@@ -22,11 +22,15 @@
 
 	<!-- Favicons -->
     <link rel="shortcut icon" href="assets/z/favicon.ico">
+      <style>
+body{background:url(assets/img/white_leather.png) repeat 0 0; }
+</style>
   </head>
 <body>
 <!-- 
 	Upper Header Section 
 -->
+
 <div class="navbar navbar-inverse navbar-fixed-top">
 	<div class="topNav">
 		<div class="container">
@@ -505,5 +509,6 @@ accompanied by English versions from the 1914 translation by H. Rackham.
 	<script src="assets/js/jquery.easing-1.3.min.js"></script>
     <script src="assets/js/jquery.scrollTo-1.4.3.1-min.js"></script>
     <script src="assets/js/shop.js"></script>
+  
   </body>
 </html>
