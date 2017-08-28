@@ -13,6 +13,7 @@ class Application
         //prepare routes - this can be another router class for example
 
         include "core/route.php";
+	
 
         // add prefix
         $controller_name = 'Controller_'.$controller_name;

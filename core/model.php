@@ -3,12 +3,7 @@ class Model
 {
     public $db;
 
-    function __construct() {
 
-        $this->db = new PDO("mysql:host=".DB_HOST.";dbname=".DB_NAME, DB_USER, DB_PASS);
-        //$this->db = new mysqli(DB_HOST, DB_USER,DB_PASS, DB_NAME, DB_PORT);
-
-    }
 
     public function load($model) {
             $model_name = 'Model_'.$model;
